@@ -26,7 +26,6 @@
   line-height: 19px;
   letter-spacing: 0em;
   text-align: left;
-  height: 44px;
 
   padding: 14px 16px;
 }
@@ -37,7 +36,7 @@
   cursor: pointer;
 }
 
-.sidebar-item .selected {
+.list-menu .selected {
   color: #ffffff;
 }
 
