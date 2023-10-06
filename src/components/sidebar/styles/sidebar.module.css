@@ -1,0 +1,33 @@
+.sidebar-container {
+  width: 150px;
+  height: 100vh;
+  background: #191718;
+}
+
+.list-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-rectangle {
+  width: 150px;
+  height: 44px;
+  border-bottom: 1px solid #5c5c5c;
+}
+
+.sidebar-item {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 44px;
+  color: #aaaaaa;
+
+  padding: 14px 16px;
+
+  /* padding-top: 14px;
+  padding-left: 16px; */
+}
