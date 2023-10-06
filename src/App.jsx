@@ -7,9 +7,11 @@ function App() {
   return (
     <div className="overal-container">
       <SideBar />
-      <div className="content-container">
-        <HomePage />
-        <Footer />
+      <div className="full-height-screen">
+        <div className="content-container">
+          <HomePage />
+          <Footer />
+        </div>
       </div>
     </div>
   );

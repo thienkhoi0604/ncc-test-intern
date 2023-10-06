@@ -4,7 +4,7 @@ import classes from "./styles/sidebar.module.css";
 const SidebarItem = ({ label }) => {
   return (
     <div className={classes["sidebar-rectangle"]}>
-      <li className={classes["sidebar-item"]}>{label}</li>;
+      <li className={classes["sidebar-item"]}>{label}</li>
     </div>
   );
 };

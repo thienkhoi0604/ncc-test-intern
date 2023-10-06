@@ -1,7 +1,9 @@
 .sidebar-container {
   width: 150px;
-  height: 100vh;
+  position: relative;
   background: #191718;
+  top: 0;
+  bottom: 0;
 }
 
 .list-menu {
@@ -14,6 +16,7 @@
   width: 150px;
   height: 44px;
   border-bottom: 1px solid #5c5c5c;
+  color: #aaaaaa;
 }
 
 .sidebar-item {
@@ -24,10 +27,33 @@
   letter-spacing: 0em;
   text-align: left;
   height: 44px;
-  color: #aaaaaa;
 
   padding: 14px 16px;
-
-  /* padding-top: 14px;
-  padding-left: 16px; */
 }
+
+.sidebar-rectangle:hover {
+  background: #5c5c5c;
+  color: #ffffff !important;
+  cursor: pointer;
+}
+
+.sidebar-item .selected {
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+  .sidebar-container {
+    display: none;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 960px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+
+/* @media (min-width: 1024px) {
+  big landscape tablets, laptops, and desktops
+}
+@media (min-width: 1280px) {
+  hi-res laptops and desktops
+} */
